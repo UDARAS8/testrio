@@ -1,0 +1,486 @@
+
+    body {
+        font-family: "Poppins" !important;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      
+       .main-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 0;
+      }
+
+    .logo-wrapper{
+        gap:20px;
+      }
+
+       .logo-wrapper logo{
+        width:49px;
+      
+      }
+    
+     .main-header .container {
+            display: flex;
+            font-size: 13px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFFFF;
+            border-radius: 14px 14px 14px 14px;
+            padding: 29px 40px 30px 60px;
+            margin-top: 25px;
+            font-weight: 700;
+            
+            
+        }
+         .main-header .menu.wrapper nav ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+
+      .main-header .container a{
+        color: #FFFFFF;
+        font-size: 11px;
+        gap:10px;
+        font-weight: 700;
+    }
+
+     .btn-intro {
+        background-color: #fff;
+        color: #EE5F71;
+        font-weight: 700;
+        padding: 12.5px 71px 12.5px 69px;
+        border-radius: 94px;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 11px;
+        transition: 0.3s;
+      }
+
+     .schedule-button {
+        background-color: #FF7687;
+      height: 34px;
+        padding: 8.5px 48px;
+        border-radius: 56px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.3s;
+        justify-content: center;
+   
+       
+      }
+
+       .menu-item a {
+        color: #373737;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+.main-header .menu.navbar-nav a {
+text-decoration: none !important;
+color: #373737;
+font-weight: 700;
+font-size: 13px;
+transition: color 0.3s ease;
+}
+
+ .menu-wrapper h2{
+    color:#EE5F71;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Bagel Fat One;
+}
+
+ .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+   .logo-wrapper .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .logo-wrapper h2 {
+    font-family: "Bagel Fat One", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #EE5F71;
+    margin: 0;
+  }
+
+  .logo-header{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+  
+/*banner-section*/
+      .banner-section img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+      }
+
+          
+          .banner-section {
+            position: relative;
+            padding: 150px 20px;
+            min-height: 20px;
+            overflow: hidden;
+            width:100%;
+          }
+          
+          .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+           min-height: 969px;
+           margin-bottom: 50px;
+          }
+          
+          .banner-section .container {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+          }
+          
+          .banner-side-image {
+            width:542px;
+            height: 377px;
+            margin-top: 94px;
+            
+          }
+          
+        .banner-section .content-wrapper p{
+            font-size: 23px;
+            color:#610A15;
+            font-weight: 500;
+            
+          }
+
+         .banner-section h1{
+            font-family:Erica One;
+            color:#FFFFFF;
+            font-weight:400;
+            font-size: 74px;
+            line-height: 75px;
+            margin-bottom: 40px;
+          }
+      /*description-section*/
+  
+  .description-section .container {
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description-section {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 150px 77px 48px 21.81px;
+    box-sizing: border-box;
+  }
+  
+  .description-section .container {
+  
+    margin: 0 auto;
+  }
+  
+  .description-section .row {
+    --bs-gutter-x: 51.7px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+    
+  }
+
+  .description-section .col-5 {
+    flex:0 0 40%;
+  }
+  
+  .description-section .col-7 {
+    flex: 0 0 60%;
+  }
+ 
+
+  .description-section .full-image-description {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .description-section .full-image-description img {
+    display: block;
+   
+    height: auto;
+  }
+  
+  .description-section .bg-shape {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .description-section .main-photo {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 82%;
+    z-index: 3; 
+  }
+.description-section .paw{
+    position: absolute;
+    bottom: -290px;     
+    left: 0;
+    width: 100%;
+    z-index: 2;         
+    transform: rotate(170.45 deg); 
+    object-fit: cover;
+  }
+  
+  .description-section .content-wrapper h3 {
+    color: #ED909B;
+    font-family: "Erica One";
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .description-section .content-wrapper h2 {
+    color: #EE5F71;
+    font-family: "Erica One";
+    font-size: 104px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .description-section .content-wrapper h4 {
+    color: #ED909B;
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .description-section .content-wrapper p {
+    color: #FFBAC2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    
+  }
+
+.description-section{
+    display: block;
+}
+
+
+/*hello-section*/
+
+.hello-section {
+  position: relative;
+  width: 100%;
+  padding: 150px 20px;
+  min-height: 400px;
+  background: linear-gradient(to bottom, #ffffff 50%, #FFE8EA 50%); /* half white, half pink */
+  overflow: hidden;
+
+         
+}
+
+
+
+ .hello-section .hello {
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    border-radius:70px;
+    height: 100%;
+    z-index: 10;
+    background:linear-gradient(to bottom,#000000);
+ }
+
+ .hello-section .inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 40px;
+   
+
+ }
+
+ .hello-section .content-wrapper{
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+ }
+
+  .hello-section .container  h2 {
+    font-family: Erica One;
+    font-size:54px ;
+    color:#FFFFFF;
+    font-weight: 400;
+    position: relative;
+    line-height: 168%;
+  
+  
+  }
+
+  .hello-section{
+     position: relative;
+            padding: 150px 20px;
+            min-height: 20px;
+            width:100%;
+  }
+
+  .hello-section .content-wrapper {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+.gallery-section{
+    background-color: #FFE8EA;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 112px;
+
+}
+
+
+.gallery-section .col-lg-4 {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+
+  }
+
+
+  .gallery-section .col-lg-4 .image-b {
+
+
+
+  }
+
+
+.gallery-section .content-wrapper h2 b{
+    color:#ED909B;
+    font-weight: 400;
+    font-size: 98px;
+    font-family: Erica One;
+    
+}
+
+.gallery-section .content-wrapper h2{
+    color:#EE5F71;
+    font-weight: 400;
+    font-size: 98px;
+    font-family: Erica One;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.gallery-section .row{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+
+footer{
+    background-color: #2B0106;
+    padding-bottom: 30px;
+    margin-top: 0; 
+    padding: 30px 0 30px;   
+}
+
+
+footer.logo{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    text-decoration: none;
+    margin-top: 87px;
+}
+
+.copyright {
+    color: #999997;
+    font-weight: 500;
+    font-family: DM Sans;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+footer.footer-content{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    text-decoration: none;
+    margin-top: 0;  
+}
+
+
+
+footer .logo-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 88px;
+    gap:37px;
+}
+
+footer .logo-wrapper h2{
+  font-family: Bagel Fat One;
+  font-size: 55px;
+  font-weight: 400;
+  color: #EE5F71;
+  margin-bottom: 9px;
+
+}
+
+
+
